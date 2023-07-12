@@ -10,9 +10,9 @@ body {
     text-align:center;
 }
 #heybub{
-    display:inline-block;
+    display:block;
     position:absolute;
-    top:95%;
-    right:5%;
+    
+    right:10%;
 
 }
