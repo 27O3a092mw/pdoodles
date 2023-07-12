@@ -4,7 +4,7 @@ body {
 
 }
 #poopdoodle {
-    width:100%;
+    width:95%;
     display:inline-block;
     position:absolute;
     text-align:center;
@@ -12,7 +12,6 @@ body {
 #heybub{
     display:block;
     position:absolute;
-    top:100;
     right:15%;
 
 }
