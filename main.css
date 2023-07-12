@@ -1,0 +1,18 @@
+body {
+    background-color:burlywood;
+    font-family:'Caveat';
+
+}
+#poopdoodle {
+    width:100%;
+    display:inline-block;
+    position:absolute;
+    text-align:center;
+}
+#heybub{
+    display:inline-block;
+    position:absolute;
+    top:95%;
+    right:5%;
+
+}
