@@ -8,7 +8,7 @@ body {
 
 /*button*/
 .header_area {
-  display:inline-block;
+  display:flex-box;
 }
 
 #temp {
