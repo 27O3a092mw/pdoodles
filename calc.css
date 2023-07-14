@@ -8,21 +8,20 @@ body {
 
 /*button*/
 .header_area {
-  display:flex-box;
+  display:inline-box;
 }
 
 #temp {
   font-size:14px;
-  float:left;
-  
+  left: 20px; 
 }
 .dropbtn {
   color:white;
-  float:left;
   background-color:#04AA6D;
   padding:16px;
   font-size:14px;
   border:none;
+  left: 45px;
 }
 .dropdown { 
   position: relative;
