@@ -5,6 +5,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <script language="javascript">
+    function selF(tempType) {
+      if (tempType="F") {
+        document.getElementById("temp-btn").innerHTML = "Farenheit";
+      }
+    }
+    
+  </script>
+    
+  
   </head>
   <body>
     <div class="header_area">      
@@ -12,11 +22,11 @@
         <input type="text" id="temp" name="temp">
       </div>
       <div class="dropdown">
-        <button class="dropbtn">Celsius</button>
+        <button class="dropbtn" id="temp-btn">Celsius</button>
         <div class="dropdown-content">
-          <a href="#">Farenheit</a>
-          <a href="#">Kelvin</a>
-          <a href="#">Rankine Scale</a>
+          <a href="#" onclick="selTemp("F")">Farenheit</a>
+          <a href="#" onclick="selTemp("K")">Kelvin</a>
+          <a href="#" onclick="selTemp("R")">Rankine Scale</a>
         </div>
       </div>
     </div>
