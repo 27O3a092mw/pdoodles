@@ -6,12 +6,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <script language="javascript">
-    function selTemp(tempType) {
-      if (tempType="F") {
-        document.getElementById("temp-btn").innerHTML = "Farenheit";
-      }
+    function selF() {
+       document.getElementById("temp-btn").innerHTML = "Farenheit";
     }
-    
+    function selK() {
+      document.getElementById("temp-btn").innerHTML = "Kelvin";
+    }
+    function selR() {
+      document.getElementById("temp-btn").innerHTML = "Rankin";
+    }
   </script>
     
   
@@ -24,9 +27,9 @@
       <div class="dropdown">
         <button class="dropbtn" id="temp-btn">Celsius</button>
         <div class="dropdown-content">
-          <a href="#" onclick="selTemp("F");">Farenheit</a>
-          <a href="#" onclick="selTemp("K");">Kelvin</a>
-          <a href="#" onclick="selTemp("R");">Rankine Scale</a>
+          <a href="#" onclick="selF();">Farenheit</a>
+          <a href="#" onclick="selK();">Kelvin</a>
+          <a href="#" onclick="selR();">Rankine Scale</a>
         </div>
       </div>
     </div>
