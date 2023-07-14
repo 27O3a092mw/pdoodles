@@ -1,16 +1,20 @@
 body {
   font-family:"Raleway";
-  font-size: 1.4em;
+  font-size: 14px;
   background-color: #161b22;
   color: white;
+  display: inline-block;
 }
 
 /*button*/
+#temp {
+  font-size:14px;
+}
 .dropbtn {
   color:white;
   background-color:#04AA6D;
   padding:16px;
-  font-size:16px;
+  font-size:14px;
   border:none;
 }
 .dropdown { 
