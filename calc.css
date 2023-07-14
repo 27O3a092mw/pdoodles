@@ -13,9 +13,12 @@ body {
 
 #temp {
   font-size:14px;
+  float:left;
+  
 }
 .dropbtn {
   color:white;
+  float:left;
   background-color:#04AA6D;
   padding:16px;
   font-size:14px;
