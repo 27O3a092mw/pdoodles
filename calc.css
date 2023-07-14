@@ -7,6 +7,10 @@ body {
 }
 
 /*button*/
+.header_area {
+  display:inline-block;
+}
+
 #temp {
   font-size:14px;
 }
